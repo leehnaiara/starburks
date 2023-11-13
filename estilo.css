@@ -1,0 +1,83 @@
+body
+{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.linhaverde
+{
+    background-color: rgb(1, 103, 20);
+    height: 10px;
+}
+
+#container_cabecario
+{
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.cabecario-esquerda img
+{
+    width:64px;
+    height:64px;
+    margin-left: 105px;
+}
+
+.cabecario-direita
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecario_pesquisar
+{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 12px;
+}
+
+form input , form button
+{
+    border: none;
+    padding: 0px;
+    font-size: 16px;
+    align-items: start;
+}
+
+form input
+{
+    outline: 0;
+}
+
+button
+{
+    background-color: white;
+    cursor: pointer;
+}
+
+button img
+{
+    width: 16px;
+    height: 16px;
+}
+
+.cabecario_menu
+{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.cabecario_menu img
+{
+    width: 27px;
+    height: 27px;
+}
+
